@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "system": {
+    "markers": [
+      {
+        "hideSystemId": true,
+        "params": [
+          { "id": "elementId", "name": "HTML Element ID", "locale_name": {"fr_FR": "ID de l'élément HTML"}, "type": "String" },
+          { "id": "enter", "name": "Detects when element enters zone", "locale_name": {"fr_FR": "Détection entrée de zone"}, "type": "Boolean" },
+          { "id": "exit", "name": "Detects when element exits zone", "locale_name": {"fr_FR": "Détection sortie de zone"}, "type": "Boolean" }
+        ]
+      }
+    ]
+  }
+}

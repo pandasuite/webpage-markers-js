@@ -1,0 +1,37 @@
+{
+  "name": "webpage-markers-js",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode production",
+    "release": "yarn build && release-it --no-npm.publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pandasuite/webpage-markers-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pandasuite/webpage-markers-js/issues"
+  },
+  "homepage": "https://github.com/pandasuite/webpage-markers-js#readme",
+  "devDependencies": {
+    "release-it": "^13.6.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "pandasuite-bridge": "^4.2.1"
+  },
+  "release-it": {
+    "github": {
+      "release": true,
+      "assets": [
+        "dist/webpage-markers.js"
+      ]
+    }
+  }
+}
