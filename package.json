@@ -1,11 +1,11 @@
 {
   "name": "webpage-markers-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "private": true,
   "scripts": {
     "build": "webpack --mode production",
-    "release": "yarn build && release-it --no-npm.publish"
+    "release": "yarn build && release-it --no-npm.publish --no-git.requireCleanWorkingDir"
   },
   "repository": {
     "type": "git",
