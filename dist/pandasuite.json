@@ -10,6 +10,18 @@
           { "id": "exit", "name": "Detects when element exits zone", "locale_name": {"fr_FR": "Détection sortie de zone"}, "type": "Boolean" }
         ]
       }
-    ]
+    ],
+    "defaults": {
+      "markers": {
+        "description": {
+          "value": "%s",
+          "args": [
+            {
+              "key": "elementId"
+            }
+          ]
+        }
+      }
+    }
   }
 }
