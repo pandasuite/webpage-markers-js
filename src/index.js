@@ -34,6 +34,14 @@ function watchMode() {
   window.addEventListener('scroll', function(event) {
     triggerEvents();
   });
+
+  PandaBridge.setSnapshotData(function(pandaData) {
+    var element = document.getElementById(pandaData.data.elementId);
+
+    if (element) {
+      element.scrollIntoView();
+    }
+  });
 }
 
 function triggerEvents() {
