@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/pandasuite/webpage-markers-js#readme",
   "devDependencies": {
-    "release-it": "^13.6.2",
+    "release-it": "^13.7.2",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
   },
